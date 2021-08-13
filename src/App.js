@@ -70,7 +70,7 @@ const App = () => {
 					{/* <Home id='home' fetchedUser={fetchedUser} go={go} /> */}
 					<Persik id='persik' go={go} />
 					<Panel id="home">
-						<PanelHeader>Мы вместе</PanelHeader>
+						<PanelHeader>Мы вместе!</PanelHeader>
 
 						<Group>
 							<Placeholder
@@ -83,7 +83,8 @@ const App = () => {
 							<Placeholder
 								icon={<Icon56MessageOutline />}
 								header="Оcтавить отзыв"
-								action={<Button size="l" onClick={go} data-to="home">Написать</Button>}>
+								action={<Button size="l" target="_blank"
+								href="https://vk.com/ssshabalin">Написать</Button>}>
 								Поделитесь обратной связью о приложении
 							</Placeholder>
 						</Group>
