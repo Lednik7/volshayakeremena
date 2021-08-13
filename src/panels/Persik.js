@@ -7,13 +7,13 @@ import persik from '../img/persik.png';
 import './Persik.css';
 
 const Persik = props => (
-	<Panel id={props.id}>
+	<Panel id="persik">
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
 		>
-			Persik
+			Тест
 		</PanelHeader>
-		<img className="Persik" src={persik} alt="Persik The Cat"/>
+		{/* <img className="Persik" src={persik} alt="Persik The Cat"/> */}
 	</Panel>
 );
 
