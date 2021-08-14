@@ -34,7 +34,7 @@ const Home = ({user, go, realUser}) => (
 						"message": "Вот моя вероятность пройти в финал Большой Перемены!",
 						"attachments": `https://vk.com/app7925819/${window.location.hash}`
 					}); 
-					go(x)
+					// go(x)
 				}} data-to="home">Поделись своим результатом!</Button>
 				{/* <Footer>Вероятности посчитаны с предположением, что каждый участник полуфинала наберет о</Footer> */}
 			</Placeholder>
