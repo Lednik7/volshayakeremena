@@ -46,7 +46,7 @@ const Persik = props => {
 									onChange={changeId}/>
 
 				{results.map((result) => <SimpleCell key={result} onClick={display} data-to="result">{result}</SimpleCell>)}
-				{!!currentId ? '' : <Footer>Начните вводить ID из <Link href="https://bolshayaperemena.online/auth/signin">личного кабинета</Link></Footer>}
+				{!!currentId ? '' : <Footer>Начните вводить ID из <Link href="https://bolshayaperemena.online/auth/signin"  target='_blank'>личного кабинета</Link></Footer>}
 		</Group>
 
 		{/* <img className="Persik" src={persik} alt="Persik The Cat"/> */}

@@ -99,7 +99,7 @@ const App = () => {
 								icon={<Icon56NotePenOutline />}
 								header="Узнай вероятность прохождения в финал конкурса!"
 								action={<Button size="l" onClick={go} data-to="persik">Узнать!</Button>}>
-								Укажи свой ID из <Link href="https://bolshayaperemena.online/auth/signin">личного кабинета БП</Link> и получи результат
+								Укажи свой ID из <Link  target='_blank' href="https://bolshayaperemena.online/auth/signin">личного кабинета БП</Link> и получи результат
 							</Placeholder>
 							<Separator></Separator>
 							<Placeholder
